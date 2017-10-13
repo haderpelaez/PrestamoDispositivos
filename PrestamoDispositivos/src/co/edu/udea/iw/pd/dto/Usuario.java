@@ -11,7 +11,7 @@ public class Usuario implements Serializable {
 	private String email;
 	private String usuario;
 	private String contrasena;
-	private EstadoUsuario idEstado;
+	private EstadoUsuario estado;
 	
 	//getters and setters
 	public String getId() {
@@ -63,10 +63,10 @@ public class Usuario implements Serializable {
 		this.contrasena = contrasena;
 	}
 	public EstadoUsuario getIdEstado() {
-		return idEstado;
+		return estado;
 	}
-	public void setIdEstado(EstadoUsuario idEstado) {
-		this.idEstado = idEstado;
+	public void setIdEstado(EstadoUsuario estado) {
+		this.estado = estado;
 	}
 	
 }
